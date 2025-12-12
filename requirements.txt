@@ -1,11 +1,18 @@
-gTTs==1.1.8
-easyocr==1.2.1
-python==3.8.5
-tensorflow==2.3.0
-opencv-python==4.4.0
-streamlit==0.72.0
-Pillow==8.0.1
-matplotlib==3.3.3
-pytorch==1.7.1
-numpy==1.19.1
-ipython==7.19.0
+streamlit==1.28.0
+Pillow==10.0.0
+matplotlib==3.7.1
+numpy==1.24.3
+opencv-python-headless==4.8.1.78
+gTTS==2.3.2
+ipython==8.15.0
+
+# Choose ONE of these - not both:
+# Option 1: TensorFlow (lighter)
+tensorflow-cpu==2.13.0
+
+# Option 2: PyTorch (lighter)
+# torch==2.1.0
+# torchvision==0.16.0
+
+# Remove easyocr if possible - it's very heavy
+# easyocr==1.7.1  # Only include if absolutely necessary
